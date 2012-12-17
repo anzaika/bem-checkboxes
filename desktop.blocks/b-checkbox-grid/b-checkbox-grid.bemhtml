@@ -1,0 +1,6 @@
+block b-checkbox-grid {
+    content: [
+        { block: 'b-checkbox', js: true, mods: { checked: 'yes' } },
+        { block: 'b-checkbox', js: true, mods: { checked: 'yes' } }
+    ]
+}

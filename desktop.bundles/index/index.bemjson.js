@@ -12,22 +12,8 @@
     ],
     content:[
         {
-            block: 'header',
-            content: [
-                'header content goes here'
-            ]
-        },
-        {
-            block: 'content',
-            content: [
-                'main content'
-            ]
-        },
-        {
-            block: 'footer',
-            content: [
-                'footer content goes here'
-            ]
+            block: 'b-checkbox-grid',
+            js: true
         }
-    ]
+   ]
 })

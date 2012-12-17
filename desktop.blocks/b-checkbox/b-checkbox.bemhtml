@@ -1,0 +1,16 @@
+block b-checkbox {
+
+    tag: 'input'
+
+    mix: [{ block: 'b-checkbox-grid', elem: 'item' }]
+
+    attrs: {
+        var a = this.ctx.attrs || {};
+
+        a.type = 'checkbox';
+        this.mods.checked && (a.checked = 'checked');
+
+        return a;
+    }
+
+}
